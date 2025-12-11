@@ -12,9 +12,11 @@ html {
 }
 
 body {
-  width: 1300px;
-  margin: 48px auto;
-}
+ /*width: 1300px;*/
+  width: 80vw; 
+  min-width: 1000px;
+  margin: 48px auto; 
+  }
 
 .text{
   column-count: 3;
@@ -43,4 +45,17 @@ h2 {
 
 @media only screen and (max-width: 480px) {
 
+html { 
+  font-size: 16px; 
+  color: #F2F2F2; 
+  background-color: #262626; 
+  text-align: center;
+}
+body { 
+  width: 75vw; 
+  min-width: 200px;
+}
+  .text{ 
+  column-count: 1; 
+}
 }
